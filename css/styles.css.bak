@@ -3,7 +3,7 @@ div.gallery-item { float: left; width: 32.5%;position:relative;margin:.33333333%
 div.gallery-item a { display: block; border: 1px solid #3c3c3c; }
 div.gallery-item img { display: block; width: 100%; height: auto; }
 .img_title{
-	background:url("../images/title_bg2.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	background:url("../images/title_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
 	padding:2% 1%;
 	width:98%;
 	overflow:hidden;

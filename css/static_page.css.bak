@@ -1,22 +1,29 @@
 .static_img img{
 	width:100%;
 }
+.static_img{
+	padding:5px;
+	background:url(../images/header_bg.png);
+}
 .staticPage{
 	background:url(../images/title_bg.png);
-	margin:4% 2% 2%;
+	margin:4% auto 2%;
 	padding:3%;
 }
 .staticpage_content p{
-	color:#333;
+	color:#fff;
 	font-size:14px;
 	line-height:20px;
 	text-align:justify;
 	text-shadow:none;
 }
 .staticPageList .ui-btn{
-	border-bottom:1px solid #ddd !important;
+	background:none !important;
+	border-color:#fff;
+	border-bottom:1px solid #fff !important;
 }
 .staticPageList{
+	
 	margin:4% 2% 2%;
 }
 .staticPageList .ui-listview li a.ui-btn-active{
@@ -38,13 +45,7 @@
 	border-radius:0px;
 }
 .staticPageList .ui-btn{
+	color:#fff !important;
 	text-shadow:none !important;
-}
-.social_media .ui-btn{
-	border-bottom:none !important;
-	
-}
-.staticPageList.social_media ul li{
-	margin-bottom:0px ;
 }
 /* Social Media Page Setting Ends Here */

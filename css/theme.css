@@ -1,16 +1,13 @@
 
 .theme_bg{
-	background-image:url(../images/main_bg.jpg) !important;
-	background-position:center bottom !important;
-	background-repeat:no-repeat !important;
+	background:#a6250f !important;
 	min-width:320px;
-	background-color:#fff;
-	background-size: auto 100%;
+	background-size:100% ;
 }
 .logo{
+	padding-top:28%;
 	transition:all ease .3s;
 	margin: 0 auto;
-	padding-top: 28%;
 }
 
 .ui-footer {
@@ -29,19 +26,18 @@
 	text-align:center;
 }
 .ui-header{
-	background:#dce1e5 !important;
+	background:url(../images/header_bg.png)  !important;
 	border:none !important;
-	background-size:auto 100% !important;
+	
 }
 .ui-header a{
 	box-shadow:none;
 }
 .ui-header .ui-title, .ui-footer .ui-title{
 	text-shadow:none !important;
-	color:#0A2654 !important;
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:bold;
-	font-size:26px;
+	color:#fff !important;
+	font-size:24px;
+	font-weight:normal;
 	margin:0 23%;
 }
 .ui-icon-customrefresh:after {
